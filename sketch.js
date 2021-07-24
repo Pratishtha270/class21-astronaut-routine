@@ -63,13 +63,13 @@ if (keyDown("g")){
   astronaut.velocityY=0;
 }
   
-if (keyDown("LEFT_ARROW")){
-  astronaut.addAnimation("bath",bathImg);
-  astronaut.changeAnimation("bath");
-  astronaut.y=300;
-  astronaut.velocityX=0;
-  astronaut.velocityY=0;
-}
+//if (keyDown("LEFT_ARROW")){
+ // astronaut.addAnimation("bath",bathImg);
+ // astronaut.changeAnimation("bath");
+ // astronaut.y=300;
+ // astronaut.velocityX=0;
+ // astronaut.velocityY=0;
+//}
 
 if (keyDown("RIGHT_ARROW")){
   astronaut.addAnimation("eat",eatImg);
@@ -79,10 +79,10 @@ if (keyDown("RIGHT_ARROW")){
   astronaut.velocityY=0;
 }
 
-if (keyDown("m")){
+if (keyDown("LEFT_ARROW")){
   console.log("hii")
   astronaut.addAnimation("move",moveImg);
-  //astronaut.changeAnimation("moveImg");
+  astronaut.changeAnimation("move");
   //astronaut.y=300;
   astronaut.velocityX=1;
   astronaut.velocityY=1;
