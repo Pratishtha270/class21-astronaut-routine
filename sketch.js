@@ -80,8 +80,9 @@ if (keyDown("RIGHT_ARROW")){
 }
 
 if (keyDown("m")){
+  console.log("hii")
   astronaut.addAnimation("move",moveImg);
-  astronaut.changeAnimation("move");
+  //astronaut.changeAnimation("moveImg");
   //astronaut.y=300;
   astronaut.velocityX=1;
   astronaut.velocityY=1;
